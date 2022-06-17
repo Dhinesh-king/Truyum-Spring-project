@@ -12,8 +12,8 @@ import com.cognizant.truyum.dao.CartDaoSqlImpl;
 import com.cognizant.truyum.dao.CartEmptyException;
 import com.cognizant.truyum.model.MenuItem;
 
-//@Controller
-//@SessionAttributes("userId")
+@Controller
+@SessionAttributes("userId")
 public class CartControllerSql {
 	CartDaoSqlImpl cartDaoImpl=new CartDaoSqlImpl();
 
